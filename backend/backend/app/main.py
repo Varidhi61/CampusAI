@@ -14,7 +14,7 @@ from app.models.wishlist import Wishlist
 from app.models.notification import Notification
 from app.routers.ai import router as ai_router
 from app.routers.notification import router as notifications_router
-
+print("========== LOADED app.main ==========")
 # Create database tables
 Base.metadata.create_all(bind=engine)
 
