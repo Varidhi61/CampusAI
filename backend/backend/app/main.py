@@ -52,3 +52,12 @@ def root():
     return {
         "message": "CampusAI Backend Running Successfully 🚀"
     }
+@app.get("/test")
+def test():
+    return {
+        "status": "working"
+    }    
+    
+@app.get("/hello")
+def hello():
+    return {"message": "Hello Render"}    
